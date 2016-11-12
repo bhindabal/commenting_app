@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comment</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Pacifico" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1 id="app">Comment Away</h1><br>
+		<input type="text" placeholder="username" id="input"><br>
+		<textarea placeholder="comment" id="comment" rows="4" onKeyDown="if(event.keyCode==13) runMe()"></textarea><br>
+		<button id="click" onclick="runMe()">Comment</button>
+	</div>
+	<ol id="ol">
+		<li id="li"></li>
+	</ol>
+	
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
