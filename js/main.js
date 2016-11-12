@@ -37,7 +37,7 @@ if (hrs < 12) {
 
 
 newH1.innerHTML = "'"  + user + "'" + " commented:"
-newP.innerHTML =  userComment + "<br>" + "<em> at "  + hrs + " on " + date + "/" + Month + "/" + year + "</em>"
+newP.innerHTML =  userComment + "<br>" + "<em> at "  + hrs + " on " + Month + "/" + date + "/" + year + "</em>"
 
 function removeItem() { 
      getOl.className = "remove"

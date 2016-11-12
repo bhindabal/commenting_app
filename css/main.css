@@ -1,5 +1,5 @@
 * { 
-  background: url(../img/bg2.jpg) no-repeat center center fixed; 
+  background: url(../img/bh.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
 
@@ -9,9 +9,9 @@ li {
 #app {
 	text-align: center;
 	font-family: 'Pacifico', cursive;
-	color: skyblue;
+	color: #493e5c;
 	opacity: 0.9;
-	text-shadow: 1px 1px 2px blue;
+	text-shadow: 1px 1px 2px white;
 	background: none;
 	font-size: 550%
 }
@@ -23,24 +23,27 @@ li {
 	background: white;
 	opacity: 0.85;
 	color: black;
+	box-shadow: 4px 4px 5px #d21018;
+
 }
 
 #input:focus, #comment:focus {
 	
 	background: white;
 	opacity: 0.7;
-	color: brown;
+	color: #bd1620;
 	border: 1px solid black;
+	box-shadow: 2px 2px 5px #d21018;
 }
 
 #click {
 	margin: 2% 45%;
 	border-radius: 5px;
 	border: transparent;
-	background: #ffffff;
-	opacity: 0.6;
-	color: brown;
-	box-shadow: 2px 2px 5px red;
+	background: #493e5c;
+	opacity: 0.8;
+	color: white;
+	box-shadow: 2px 2px 5px white;
 
 }
 .list {
@@ -53,7 +56,7 @@ li {
 .newP {
 	border-bottom: 2px dotted #ddeedd;
 	font-family: 'Indie Flower', cursive;
-	color: black;
+	color: #493e5c;
 	font-size: 30px;
 	padding-left: 20%;
 	opacity: 1 !important;
@@ -61,21 +64,23 @@ li {
 }
 
 .newP>em {
-	color: brown;
+	color: #bd1620;
 	text-shadow: none;
 }
 .newH1 {
-	font-size: 17px;
+	font-size: 20px;
 	padding-left: 2%;
-	color: brown;
+	color: #bd1620;
 	opacity: 1 !important;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bolder;
 }
 
 em {
-	color: brown;
+	color: #bd1620;
 	padding-left: 60%;
-	font-size: 18px !important;
+	font-size: 16px !important;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 span {
 	font-family: sans-serif;
@@ -91,11 +96,16 @@ span {
 	background: transparent;
 }
 #li>#delete {
-	background: white;
 	opacity: 1 !important;
 	margin: 0 85%;
+	border-radius: 5px;
+	border: transparent;
+	background: #493e5c;
+	color: white;
+	box-shadow: 2px 2px 5px red;
 }
+
 .remove {
-	display: none;
+	display: none
 }
 
